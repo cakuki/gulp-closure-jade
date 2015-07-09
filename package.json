@@ -1,0 +1,36 @@
+{
+  "name": "gulp-closure-jade",
+  "version": "0.1.0",
+  "description": "Convert Jade partials to Closure template functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cakuki/gulp-closure-jade.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "jade",
+    "google-closure",
+    "closure-templates",
+    "closure"
+  ],
+  "author": "Can Kutlu Kinay <me@ckk.im> (http://ckk.im)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cakuki/gulp-closure-jade/issues"
+  },
+  "homepage": "https://github.com/cakuki/gulp-closure-jade#readme",
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^7.0.1"
+  },
+  "dependencies": {
+    "event-stream": "^3.3.1",
+    "gulp-util": "^3.0.6",
+    "jade": "^1.11.0",
+    "through2": "^2.0.0"
+  }
+}
